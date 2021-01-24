@@ -7,8 +7,7 @@ SRCREV_kmeta = ""
 
 SRCREV = "bd204130252690fffb35e9f4f9495d322329bc59"
 
-SRC_URI = "\
-    git://github.com/raspberrypi/linux.git;branch=${LINUX_RPI_BRANCH} \
+SRC_URI += "\
     file://ikconfig.cfg \
 "
 
